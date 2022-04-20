@@ -75,7 +75,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   animation: img-anim2 2s ease alternate;
-
   transition: all 0.3s ease;
 }
 .img3 {
