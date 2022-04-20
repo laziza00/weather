@@ -51,13 +51,13 @@ function something(data) {
             weather.classList.add('dark')
          
         }, 2000);
-        setTimeout(() => {
-            body.classList.add('img8')
-            sun.style.display ="none"
-            cloud.classList.remove('d-none')
-            weather.classList.add('dark')
+        // setTimeout(() => {
+        //     body.classList.add('img8')
+        //     sun.style.display ="none"
+        //     cloud.classList.remove('d-none')
+        //     weather.classList.add('dark')
          
-        }, 6000);
+        // }, 6000);
 
     }
     if(item.main=="Hot") {
@@ -78,13 +78,13 @@ function something(data) {
             weather.classList.add('dark')
          
         }, 2000);
-        setTimeout(() => {
-            body.classList.add('img7')
-            sun.style.display ="none"
-            cloud.classList.remove('d-none')
-            weather.classList.add('dark')
+        // setTimeout(() => {
+        //     body.classList.add('img7')
+        //     sun.style.display ="none"
+        //     cloud.classList.remove('d-none')
+        //     weather.classList.add('dark')
          
-        }, 6000);
+        // }, 6000);
 
     }
     if(item.main=="Fog") {
