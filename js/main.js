@@ -54,9 +54,30 @@ function something(data) {
 
     }
     if(item.main=="Hot") {
+        setTimeout(() => {
+            body.classList.add('img9')
+            sun.style.display ="none"
+            cloud.classList.remove('d-none')
+            weather.classList.add('dark')
+         
+        }, 2000);
+
+    }
+    if(item.main=="Mist") {
      
         setTimeout(() => {
-            body.classList.add('img6')
+            body.classList.add('img7')
+            sun.style.display ="none"
+            cloud.classList.remove('d-none')
+            weather.classList.add('dark')
+         
+        }, 2000);
+
+    }
+    if(item.main=="Fog") {
+     
+        setTimeout(() => {
+            body.classList.add('img8')
             sun.style.display ="none"
             cloud.classList.remove('d-none')
             weather.classList.add('dark')

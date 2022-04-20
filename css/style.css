@@ -92,8 +92,36 @@ body {
   animation: img-anim2 2s ease alternate;
   transition: all 0.3s ease;
 }
+.img6 {
+  background-image: url(../images/hot.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: img-anim2 2s ease alternate;
+  transition: all 0.3s ease;
+}
+.img7 {
+  background-image: url(../images/mist.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: img-anim2 2s ease alternate;
+  transition: all 0.3s ease;
+}
+.img8 {
+  background-image: url(../images/fog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: img-anim2 2s ease alternate;
+  transition: all 0.3s ease;
+}
 .img5 {
   background-image: url(../images/ima11.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: img-anim2 2s ease alternate;
+  transition: all 0.3s ease;
+}
+.img9 {
+  background-image: url(../images/hot.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   animation: img-anim2 2s ease alternate;
@@ -125,6 +153,10 @@ body {
   font-size: 18px;
   font-weight: 500;
   text-transform: capitalize;
+}
+.input .bx{
+  color: #fff;
+  font-size: 18px;
 }
 .input::placeholder{
   color: #fff;
