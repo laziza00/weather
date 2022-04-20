@@ -64,7 +64,6 @@ function something(data) {
 
     }
     if(item.main=="Mist") {
-     
         setTimeout(() => {
             body.classList.add('img7')
             sun.style.display ="none"
