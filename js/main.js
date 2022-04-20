@@ -111,7 +111,7 @@ function something(data) {
     }
     })
     for (let i in data.wind) {
-        console.log(i, data.wind[i]);
+      
         if(i==="speed") {
             windSpeed.innerHTML = `Wind speed: ${data.wind[i]} km/h`
         }
@@ -137,4 +137,6 @@ function something(data) {
         }
     }
 }
+
+
 
