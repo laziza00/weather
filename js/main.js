@@ -53,6 +53,17 @@ function something(data) {
         }, 2000);
 
     }
+    if(item.main=="Hot") {
+     
+        setTimeout(() => {
+            body.classList.add('img6')
+            sun.style.display ="none"
+            cloud.classList.remove('d-none')
+            weather.classList.add('dark')
+         
+        }, 2000);
+
+    }
     else if(item.main=="Clouds") {
         setTimeout(() => {
             body.classList.add('img3')
