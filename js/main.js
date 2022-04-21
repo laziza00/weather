@@ -44,70 +44,70 @@ function something(data) {
         
     if(item.main=="Rain") {
      
-        setTimeout(() => {
+        // setTimeout(() => {
             body.classList.add('img2')
             sun.style.display ="none"
             cloud.classList.remove('d-none')
             weather.classList.add('dark')
          
-        }, 2000);
+        // }, 2000);
 
     }
     if(item.main=="Hot") {
-        setTimeout(() => {
+        // setTimeout(() => {
             body.classList.add('img9')
             sun.style.display ="none"
             cloud.classList.remove('d-none')
             weather.classList.add('dark')
          
-        }, 2000);
+        // }, 2000);
 
     }
     if(item.main=="Mist") {
-        setTimeout(() => {
+        // setTimeout(() => {
             body.classList.add('img7')
             sun.style.display ="none"
             cloud.classList.remove('d-none')
             weather.classList.add('dark')
          
-        }, 2000);
+        // }, 2000);
   
 
     }
     if(item.main=="Fog") {
      
-        setTimeout(() => {
+        // setTimeout(() => {
             body.classList.add('img8')
             sun.style.display ="none"
             cloud.classList.remove('d-none')
             weather.classList.add('dark')
          
-        }, 2000);
+        // }, 2000);
 
     }
     else if(item.main=="Clouds") {
-        setTimeout(() => {
+        // setTimeout(() => {
             body.classList.add('img3')
             sun.style.display ="none"
             cloud.classList.remove('d-none')
             weather.classList.add('dark')
-        }, 2000);
+        // }, 2000);
     }
     else if(item.main=="Snow") {
-        setTimeout(() => {
+        // setTimeout(() => {
             body.classList.add('img4')
             sun.style.display ="none"
             cloud.classList.add('d-none')
             weather.classList.add('dark')
-        }, 2000);
+        // }, 2000);
     }
     else if(item.main=="Clear") {
-        setTimeout(() => {
+        // setTimeout(() => {
             body.classList.add('img5')
             sun.style.display ="none"
             cloud.classList.add('d-none')
             weather.classList.add('dark')
-        }, 2000);
+        // }, 2000);
     }
     })
     for (let i in data.wind) {
